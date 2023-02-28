@@ -1,3 +1,7 @@
 .Dictionary {
   color: pink;
 }
+
+.Dictionary form {
+  text-align: center;
+}
