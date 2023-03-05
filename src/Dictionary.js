@@ -52,7 +52,7 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <h1>What do you want to learn today?</h1>
+          <h1>Search a word...</h1>
           <form onSubmit={handleSubmit}>
             <input
               type="search"

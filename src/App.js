@@ -1,4 +1,4 @@
-import books from "./books.jpg";
+import cat from "./catlatte.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -7,10 +7,12 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={books} className="App-books img-fluid" alt="books" />
+          {" "}
+          <img src={cat} className="App-books img-fluid" alt="cat" />
+          Welcome to the Cat-Latte!
         </header>
         <main>
-          <Dictionary defaultKeyword="Sushi"/>
+          <Dictionary defaultKeyword="Latte" />
         </main>
         <footer className="App-footer">
           <small>This project was coded by Kimberly Cossio and is </small>
@@ -25,7 +27,7 @@ function App() {
             </a>
             and{" "}
             <a
-              href="https://jovial-chebakia-d376bd.netlify.app/"
+              href="https://react-dictionaryapp-kc.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
