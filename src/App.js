@@ -9,7 +9,7 @@ function App() {
         <header className="App-header">
           {" "}
           <img src={cat} className="App-books img-fluid" alt="cat" />
-          Welcome to the Cat-Latte!
+          Welcome to Cat-Latte!
         </header>
         <main>
           <Dictionary defaultKeyword="Latte" />
